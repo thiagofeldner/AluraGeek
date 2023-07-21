@@ -89,10 +89,6 @@
     width: 10.25rem;
     height: 10.875rem;
   }
-
-  .produto__conteudo ul li:nth-child(n + 4) {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 425px) {
