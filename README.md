@@ -53,5 +53,6 @@ Deve conter a imagem, o nome, preço e o link para página de detalhes do produt
 - JavaScript
 - Figma
 - Google Fonts
+- Trello
 
 
