@@ -1,7 +1,3 @@
-section {
-  display: block;
-}
-
 .produto__container {
   max-width: var(--max-width);
   margin: 4rem auto;
@@ -47,13 +43,12 @@ section {
 .produto__conteudo li {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .produto__conteudo li img {
   width: 11rem;
   height:10.875rem ;
-  flex: 1 0 0;
   object-fit: cover;
 }
 
@@ -93,11 +88,11 @@ section {
 
 @media screen and (max-width: 425px) {
   .produto__container {
-    margin: 1rem auto;
-    padding: 0 1rem;
+    margin: 16px auto;
+    padding: 0 16px;
   }
 
-  .produto__titulo li img {
+  .produto__conteudo li img {
     width: 9.75rem;
   }
 }
