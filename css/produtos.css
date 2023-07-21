@@ -97,9 +97,7 @@ section {
     padding: 0 1rem;
   }
 
-  .produto__conteudo {
-    gap: 1.5rem;
+  .produto__titulo li img {
+    width: 9.75rem;
   }
 }
-
-  
