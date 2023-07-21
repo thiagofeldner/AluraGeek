@@ -11,9 +11,9 @@
 #### Visite a página do Challenge no Figma [Clicando aqui!](https://www.figma.com/file/itJpWbvHxSUcUeMPy1lmof/AluraGeek?node-id=0%3A1&mode=dev) 📃
 
 
-Clique [AQUI](https://github.com/thiagofeldner/Alura-Geek) para acessar o projeto completo.
+Clique [AQUI](https://github.com/thiagofeldner/AluraGeek/) para acessar o projeto completo.
 <br>
-Clique [AQUI](https://thiagofeldner.github.io/Alura-Geek/) para acessar a página.
+Clique [AQUI](https://thiagofeldner.github.io/AluraGeek/) para acessar a página.
 
 
 <br>
