@@ -75,3 +75,31 @@ section {
   font-weight: 700;
   color: var(--azul-100);
 }
+
+@media screen and (max-width: 768px) {
+  .produto__container {
+    margin: 2rem auto;
+  }
+
+  .produto__titulo h3 {
+    font-size: 1.375rem;
+  }
+
+  .produto__conteudo li img {
+    width: 10.25rem;
+    height: 10.875rem;
+  } 
+}
+
+@media screen and (max-width: 425px) {
+  .produto__container {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
+  .produto__conteudo {
+    gap: 1.5rem;
+  }
+}
+
+  
