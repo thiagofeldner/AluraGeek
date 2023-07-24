@@ -1,7 +1,7 @@
 # Challenge ONE | Front End - AluraGeek
 ## Em processo de desenvolvimento :
-  - Terminando a criação do desafio extra.
-  - A iniciar o back-end com JavaScript e JSON SERVER.
+  - Finalizado a criação do desafio extra.
+  - Inciando o back-end com JavaScript e JSON SERVER.
 
 
 <p align="center" >
