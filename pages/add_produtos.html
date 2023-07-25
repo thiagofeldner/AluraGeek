@@ -43,29 +43,29 @@
   </header>
 
   <div class="add__produto__container">
-    <form class="add__produto__form">
+    <form class="add__produto__form" data-form>
       <h1>Adicionar novo produto</h1>
       <div class="input__wrapper">
-        <input name="url" placeholder="URL da imagem">
+        <input name="url" placeholder="URL da imagem" required data-url>
         <label>URL da imagem</label>
       </div>
       <div class="input__wrapper">
-        <input name="categoria" placeholder="Categoria">
+        <input name="categoria" placeholder="Categoria" required data-categoria>
         <label>Categoria</label>
       </div>
 
       <div class="input__wrapper">
-        <input name="nameProduto" placeholder="Nome do produto">
+        <input name="nameProduto" placeholder="Nome do produto" required data-nome>
         <label>Nome do produto</label>
       </div>
 
       <div class="input__wrapper">
-        <input name="precoProduto" placeholder="Preço do produto">
+        <input name="precoProduto" placeholder="Preço do produto" required data-preco>
         <label>Preço do produto</label>
       </div>
 
       <div class="textarea__wrapper">
-        <textarea placeholder="Descrição do produto"></textarea>
+        <textarea placeholder="Descrição do produto" required data-descricao></textarea>
         <label>Descrição do produto</label>
       </div>
 

@@ -1,0 +1,170 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Caneca de ceramica storm tropper",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/6FDXGY9J6y4",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 2,
+      "name": "Brinquedo robô lego",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/6FDXGY9J6y4",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 3,
+      "name": "Estátua do metre Yoda",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/KeGToDVN0l4",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 4,
+      "name": "Storm tropper",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/4OHkK555s1A",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 5,
+      "name": "Grogu Pelúcia",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/R8L1l9RN198",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 6,
+      "name": "Darth Vader",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/_sDlQf6f7gc",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    }
+  ],
+  "consoles": [
+    {
+      "id": 1,
+      "name": "Controle Xbox",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/0v0VzQW_oqo",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 2,
+      "name": "Playstation 5",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/caNzzoxls8Q",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 3,
+      "name": "Console SNES clássico",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/ZV7lnfyQLmA",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 4,
+      "name": "Nintendo Swtich",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/wa5z9o9fgjw",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 5,
+      "name": "Console XBOX",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/Zjn4dT993-g",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 6,
+      "name": "Game Boy",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/k-xYhI3-gJM",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Consoles",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    }
+  ],
+  "diversos": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/fMP-oCze3AY",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 2,
+      "name": "Camisa controle game",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/bUgaIaZysH0",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 3,
+      "name": "Brinquedo Sonic",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/sYVY_ZKwaxU",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 4,
+      "name": "Millenium Falcon",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/X5WdN60n6yk",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 5,
+      "name": "VR PS5",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/MxVkWPiJALs",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 4,
+      "name": "Capacete Storm Tropper",
+      "imageUrl": "https://unsplash.com/pt-br/fotografias/tT6hv8y4Iz8",
+      "price": "100.00",
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    }    
+  ]
+}
