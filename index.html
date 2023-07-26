@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <section class="produto__container" id="starWars">
+    <section class="produto__container" data-produtos>
       <div class="produto__titulo">
         <h3>Star Wars</h3>
         <a href="./pages/produtos.html"
@@ -59,12 +59,12 @@
           <img src="./assets/imagens/seta.svg" alt="" />
         </a>
       </div>
-      <ul class="produto__conteudo">
+      <ul class="produto__conteudo" id="starWars">
         <li>
           <img src="./assets/imagens/capacete.svg" alt="" />
           <span>Produto XYZ</span>
           <strong>R$ 60,00</strong>
-          <a href="./pages/produto.html">Ver Produto</a>
+          <a href="./pages/produto.html" id="verProduto">Ver Produto</a>
         </li>
 
         <li>
@@ -104,7 +104,7 @@
       </ul>
     </section>
 
-    <section class="produto__container" id="consoles">
+    <section class="produto__container" id="consoles" data-consoles>
       <div class="produto__titulo">
         <h3>Consoles</h3>
         <a href="./pages/login.html"
@@ -157,7 +157,7 @@
       </ul>
     </section>
 
-    <section class="produto__container" id="diversos">
+    <section class="produto__container" id="diversos" data-diversos>
       <div class="produto__titulo">
         <h3>Diversos</h3>
         <a href="./pages/produtos.html"
@@ -247,5 +247,9 @@
         <span>2023</span>
       </div>
     </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/listarProdutos.js"></script>
+    <script src="./js/verProduto.js"></script>
   </body>
 </html>
