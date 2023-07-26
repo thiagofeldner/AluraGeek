@@ -1,5 +1,5 @@
 let produtos = [];
-const url = "http://localhost:3000/produtos";
+const url = "https://64c030c60d8e251fd111fd32.mockapi.io/produtos";
 getVerProdutos();
 
 async function getVerProdutos() {
