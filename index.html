@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/banner.css" />
     <link rel="stylesheet" href="./css/login.css" />
     <link rel="stylesheet" href="./css/produtos.css" />
+    <link rel="stylesheet" href="./css/listar__produtos.css" />
+    <link rel="stylesheet" href="./css/ver__produto.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
@@ -51,7 +53,7 @@
       </div>
     </div>
 
-    <section class="produto__container" data-produtos>
+    <section class="produto__container" id="starwars" data-produtos>
       <div class="produto__titulo">
         <h3>Star Wars</h3>
         <a href="./pages/produtos.html"
@@ -59,12 +61,12 @@
           <img src="./assets/imagens/seta.svg" alt="" />
         </a>
       </div>
-      <ul class="produto__conteudo" id="starWars">
+      <ul class="produto__conteudo" >
         <li>
           <img src="./assets/imagens/capacete.svg" alt="" />
           <span>Produto XYZ</span>
           <strong>R$ 60,00</strong>
-          <a href="./pages/produto.html" id="verProduto">Ver Produto</a>
+          <a href="#">Ver Produto</a> 
         </li>
 
         <li>
@@ -112,7 +114,7 @@
           <img src="./assets/imagens/seta.svg" alt="" />
         </a>
       </div>
-      <ul class="produto__conteudo">
+      <ul class="produto__conteudo" id="consoles">
         <li>
           <img src="./assets/imagens/controle_xbox.svg" alt="" />
           <span>Produto XYZ</span>
@@ -124,7 +126,7 @@
           <img src="./assets/imagens/ps5.svg" alt="" />
           <span>Produto XYZ</span>
           <strong>R$ 60,00</strong>
-          <a href="#">Ver Produto</a>
+          <a href="#" id="verConsoles">Ver Produto</a>
         </li>
 
         <li>
@@ -157,7 +159,7 @@
       </ul>
     </section>
 
-    <section class="produto__container" id="diversos" data-diversos>
+    <section class="produto__container" data-diversos>
       <div class="produto__titulo">
         <h3>Diversos</h3>
         <a href="./pages/produtos.html"
@@ -165,12 +167,12 @@
           <img src="./assets/imagens/seta.svg" alt="" />
         </a>
       </div>
-      <ul class="produto__conteudo">
+      <ul class="produto__conteudo" id="diversos">
         <li>
           <img src="./assets/imagens/camisa_atari.svg" alt="" />
           <span>Produto XYZ</span>
           <strong>R$ 60,00</strong>
-          <a href="#">Ver Produto</a>
+          <a href="#" id="verDiversos">Ver Produto</a>
         </li>
 
         <li>
@@ -249,7 +251,7 @@
     </footer>
 
     <script src="./js/main.js"></script>
-    <script src="./js/listarProdutos.js"></script>
+    <!-- <script src="./js/listarProdutos.js"></script> -->
     <script src="./js/verProduto.js"></script>
   </body>
 </html>
