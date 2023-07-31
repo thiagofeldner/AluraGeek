@@ -10,18 +10,19 @@ async function addProduto(nome, imagem, preco, categoria, descricao) {
   const conexao = await fetch('https://64c030c60d8e251fd111fd32.mockapi.io/produtos', {
     method: 'POST',
     headers: {
-      "Content-type": "Application/json"
+      "Content-type": "application/json"
     },
     body: JSON.stringify({
       nome: nome,
       imagem: imagem,
-      preco: `R$ ${preco}`,
+      preco: preco,
       categoria: categoria,
       descricao: descricao,
     })
   });
 
   const conexaoConvertida = await conexao.json();
+
   return conexaoConvertida;
 }
 
