@@ -12,11 +12,14 @@ function constroiCard(imagem, alt, nome, preco, id) {
       <strong>R$ ${preco}</strong>
       <span># ${id}</span>
       <button class="btn__deletar">
-        <img src="../assets/imagens/delete.svg" alt="">
+        <img src="../assets/imagens/delete.svg" 
+          alt="" 
+          id="data-delete"
+        >
       </button>
       <a href="#">
         <button class="btn__editar">
-          <img src="../assets/imagens/editar.svg" alt="">
+          <img src="../assets/imagens/editar.svg" alt="" id="data-edit">
         </button>
       </a>
     </li> `;

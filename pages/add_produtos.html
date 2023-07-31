@@ -43,10 +43,10 @@
   </header>
 
   <div class="add__produto__container">
-    <form class="add__produto__form" data-formulario>
+    <form class="add__produto__form" data-form>
       <h1>Adicionar novo produto</h1>
       <div class="input__wrapper">
-        <input name="nameProduto" placeholder="Nome do produto" data-nome>
+        <input name="nome" placeholder="Nome do produto" data-nome>
         <label>Nome do produto</label>
       </div>
       
@@ -56,7 +56,7 @@
       </div>
       
       <div class="input__wrapper">
-        <input name="precoProduto" placeholder="Preço do produto" data-preco>
+        <input name="preco" placeholder="Preço do produto" data-preco>
         <label>Preço do produto</label>
       </div>
 
@@ -70,7 +70,7 @@
         <label>Descrição do produto</label>
       </div>
 
-      <button class="button__wrapper" type="submit">Adicionar produto</button>
+      <button type="submit" class="button__wrapper">Adicionar produto</button>
     </form>
   </div>
 
@@ -112,6 +112,7 @@
     </div>
   </footer>
 
+  <script src="../js/conectaApi.js" type="module"></script>
   <script src="../js/addProduto.js" type="module"></script>
 </body>
 </html>

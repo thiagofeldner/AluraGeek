@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "id": 1,
+      "id":"1",
       "nome": "Caneca Storm",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/capacete.svg",
       "preco": "100.00",
@@ -10,7 +10,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 2,
+      "id":"2",
       "nome": "Legos bonecos",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/vader.png?raw=true",
       "preco": "100.00",
@@ -19,7 +19,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 3,
+      "id":"3",
       "nome": "Mestre Yoda",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/yoda.svg",
       "preco": "100.00",
@@ -28,7 +28,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 4,
+      "id":"4",
       "nome": "Storm Tropper",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/storm.svg",
       "preco": "100.00",
@@ -37,7 +37,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 5,
+      "id":"5",
       "nome": "Grogu pelúcia",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/groku.svg",
       "preco": "100.00",
@@ -46,7 +46,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 6,
+      "id":"6",
       "nome": "Darth Vader",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/darth_vader.jpg?raw=true",
       "preco": "100.00",
@@ -55,7 +55,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 7,
+      "id":"7",
       "nome": "Controle Xbox",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/controle_xbox.svg",
       "preco": "100.00",
@@ -64,7 +64,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 8,
+      "id":"8",
       "nome": "Console PS5",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/ps5.svg",
       "preco": "100.00",
@@ -73,7 +73,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 9,
+      "id":"9",
       "nome": "Console Nintendo",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/nitendo_old.svg",
       "preco": "100.00",
@@ -82,7 +82,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 10,
+      "id":"10",
       "nome": "Nitendo swtich",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/wii.svg",
       "preco": "100.00",
@@ -91,7 +91,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 11,
+      "id":"11",
       "nome": "Console Xbox",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/xbox.svg",
       "preco": "100.00",
@@ -100,7 +100,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 12,
+      "id":"12",
       "nome": "Nitendo swtich",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/gameboy.svg",
       "preco": "100.00",
@@ -109,7 +109,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 13,
+      "id":"13",
       "nome": "Camisa Atari",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/camisa_atari.svg",
       "preco": "100.00",
@@ -118,7 +118,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 14,
+      "id":"14",
       "nome": "Camisa SNES",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/camisa_snes.svg",
       "preco": "100.00",
@@ -127,7 +127,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 15,
+      "id":"15",
       "nome": "Sonic",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/sonic.svg",
       "preco": "100.00",
@@ -136,7 +136,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 16,
+      "id":"16",
       "nome": "millennium falcon",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/milleniun.jpg?raw=true",
       "preco": "100.00",
@@ -145,7 +145,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 17,
+      "id":"17",
       "nome": "VR PS5",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/vr.svg",
       "preco": "100.00",
@@ -154,7 +154,7 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 18,
+      "id":"18",
       "nome": "Capacete",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/capacete_storm.jpg?raw=true",
       "preco": "100.00",
