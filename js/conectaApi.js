@@ -6,7 +6,27 @@ async function listaProdutos () {
 }
 
 
+async function addProduto(nome, imagem, preco, categoria, descricao) {
+  const conexao = await fetch('https://64c030c60d8e251fd111fd32.mockapi.io/produtos', {
+    method: 'POST',
+    headers: {
+      "Content-type": "Application/json"
+    },
+    body: JSON.stringify({
+      nome: nome,
+      imagem: imagem,
+      preco: `R$ ${preco}`,
+      categoria: categoria,
+      descricao: descricao,
+    })
+  });
+
+  const conexaoConvertida = await conexao.json();
+  return conexaoConvertida;
+}
+
 
 export const conectaApi = {
-  listaProdutos
+  listaProdutos,
+  addProduto
 }
