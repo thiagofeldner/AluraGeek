@@ -2,7 +2,7 @@
   "produtos": [
     {
       "id": 1,
-      "name": "Caneca Storm",
+      "nome": "Caneca Storm",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/capacete.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Legos bonecos",
+      "nome": "Legos bonecos",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/vader.png?raw=true",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "name": "Mestre Yoda",
+      "nome": "Mestre Yoda",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/yoda.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "name": "Storm Tropper",
+      "nome": "Storm Tropper",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/storm.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "name": "Grogu pelúcia",
+      "nome": "Grogu pelúcia",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/groku.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "name": "Darth Vader",
+      "nome": "Darth Vader",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/darth_vader.jpg?raw=true",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "name": "Controle Xbox",
+      "nome": "Controle Xbox",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/controle_xbox.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "name": "Console PS5",
+      "nome": "Console PS5",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/ps5.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "name": "Console Nintendo",
+      "nome": "Console Nintendo",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/nitendo_old.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "name": "Nitendo swtich",
+      "nome": "Nitendo swtich",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/wii.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "name": "Console Xbox",
+      "nome": "Console Xbox",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/xbox.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "name": "Nitendo swtich",
+      "nome": "Nitendo swtich",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/gameboy.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -110,7 +110,7 @@
     },
     {
       "id": 13,
-      "name": "Camisa Atari",
+      "nome": "Camisa Atari",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/camisa_atari.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -119,7 +119,7 @@
     },
     {
       "id": 14,
-      "name": "Camisa SNES",
+      "nome": "Camisa SNES",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/camisa_snes.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -128,7 +128,7 @@
     },
     {
       "id": 15,
-      "name": "Sonic",
+      "nome": "Sonic",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/sonic.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -137,7 +137,7 @@
     },
     {
       "id": 16,
-      "name": "millennium falcon",
+      "nome": "millennium falcon",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/milleniun.jpg?raw=true",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -146,7 +146,7 @@
     },
     {
       "id": 17,
-      "name": "VR PS5",
+      "nome": "VR PS5",
       "imagem": "https://raw.githubusercontent.com/thiagofeldner/AluraGeek/51a9f3a86fe08faf5f33f7d5b4014694bfea8e3a/assets/imagens/vr.svg",
       "preco": "100.00",
       "alt": "Imagem do produto",
@@ -155,12 +155,21 @@
     },
     {
       "id": 18,
-      "name": "Capacete",
+      "nome": "Capacete",
       "imagem": "https://github.com/thiagofeldner/AluraGeek/blob/main/assets/imagens/capacete_storm.jpg?raw=true",
       "preco": "100.00",
       "alt": "Imagem do produto",
       "categoria": "Diversos",
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-    }    
+    },
+    {
+      "id": 19,
+      "nome": "Lego Strom tropper",
+      "imagem": "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3RhciUyMHdhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "preco": "80.00",
+      "alt": "Imagem do produto",
+      "categoria": "Diversos",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    }   
   ]
 }
