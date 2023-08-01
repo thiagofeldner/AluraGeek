@@ -22,4 +22,4 @@ async function criarProduto(evento) {
   window.location.href = "../pages/produtos.html";
 }
 
-formulario.addEventListener("sumbit",evento => criarProduto(evento));
+formulario.addEventListener("sumbit", evento => criarProduto(evento));

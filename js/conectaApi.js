@@ -18,7 +18,7 @@ async function addProduto(nome, imagem, preco, categoria, descricao) {
       categoria: categoria,
       descricao: descricao,
     })
-  });
+  })
 
   const conexaoConvertida = await conexao.json();
 
