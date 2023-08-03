@@ -5,19 +5,19 @@ async function listaProdutos () {
   return conexaoConvertida;
 }
 
-async function addProduto(nome, imagem, preco, categoria, descricao) {
+async function addProduto(categoria, imagem, nome, preco, descricao) {
   const conexao = await fetch("https://64c030c60d8e251fd111fd32.mockapi.io/produto",{
     method: 'POST',
+    body: JSON.stringify({
+      categoria: categoria,
+      imagem: imagem,
+      nome: nome,
+      preco: preco,
+      descricao: descricao,
+    }),
     headers: {
       "Content-type": "application/json",
-    },
-    body: JSON.stringify({
-      nome: nome,
-      imagem: imagem,
-      preco: preco,
-      categoria: categoria,
-      descricao: descricao,
-    })
+    }
   })
 
   const conexaoConvertida = await conexao.json();
@@ -25,20 +25,21 @@ async function addProduto(nome, imagem, preco, categoria, descricao) {
   return conexaoConvertida;
 }
 
-async function deletarProduto(id) {
-  const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`,{
+async function removerProduto(id) {
+  const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`, {
     method: "DELETE",
     headers: {
       "Content-type": "application/json",
     },
   });
+  
   const conexaoConvertida = await conexao.json();
-
+  
   return conexaoConvertida;
 }
 
 export const conectaApi = {
   listaProdutos,
   addProduto,
-  deletarProduto
+  removerProduto
 }
