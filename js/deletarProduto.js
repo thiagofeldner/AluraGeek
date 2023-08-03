@@ -12,9 +12,9 @@ async function deleteProduto(event) {
         "data-id"
       );
 
-    await conectaApi.deletarProduto(selectedId);
+    await conectaApi.removerProduto(selectedId);
     
-    location.reload();
+    // location.reload();
 
   }
 }
