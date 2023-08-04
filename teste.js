@@ -9,7 +9,7 @@ async function getProdutos() {
 }
 
 async function getProduto() {
-  await fetch(`${url}/12`)
+  await fetch(`${url}/11`)
   .then(res => res.json())
   .then(data => {
     nome.textContent = data.nome;
@@ -24,7 +24,7 @@ async function addProduto(novoProduto){
     method: "POST",
     body: JSON.stringify(novoProduto),
     headers: {
-      "Content-type": "application-json; charset=UTF-8"
+      "Content-type": "application/json; charset=UTF-8"
     }
   })
   .then(res => res.json())
@@ -32,10 +32,30 @@ async function addProduto(novoProduto){
   .catch(e => console.error(e))
 }
 
-async function updateProduto()
+async function updateProduto(updatedProduto, id){
+  fetch(`${url}/${id}`, {
+    method: 'PUT',
+    body: JSON.stringify(updatedProduto),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
+    } 
+  })
+  .then(res => res.json())
+  .then(data => alert.textContent = data)
+  .catch(e => console.error(e))
+}
 
-
-
+async function deleteProduto(id) {
+  fetch(`${url}/${id}`, {
+    method: 'DELETE',
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
+    }, 
+  })
+  .then(res => res.json)
+  .then(data => alert.textContent = data)
+  .catch(e => console.error(e))
+}
 
 // const novoProduto = {
 //   nome: "teste",
@@ -45,17 +65,19 @@ async function updateProduto()
 //   descricao: "Mandaloriano"
 // }
 
-const updateProduto = {
-  nome: "Teste",
-  imagem: "./teste",
-  preco: "150.52",
-  categoria: "Teste",
-  descricao: "Testando atualização de produto"
-  
-}
+// const updatedProduto = {
+//   nome: "Testando update 2",
+//   imagem: "https://images.unsplash.com/photo-1533613220915-609f661a6fe1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhciUyMHdhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+//   preco: "150.52",
+//   categoria: "Star Wars",
+//   descricao: "Mando"  
+// }
 
 // addProduto(novoProduto)
 
-// updateProduto()
+// updateProduto(updatedProduto, 20)
+
+// deleteProduto(19)
+
 getProdutos()
 getProduto()
