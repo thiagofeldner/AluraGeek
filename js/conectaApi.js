@@ -16,8 +16,8 @@ async function buscarProdutoId(id) {
 }
 
 async function produtoCategoria(categoria) {
-  const listaApi = await listaProdutos();
-  return listaApi.filter((produto) => produto.categoria.toLowerCase() === categoria.toLowerCase());
+  const lista = await listaProdutos();
+  return lista.filter((produto) => produto.categoria() === categoria());
 }
 
 async function addProduto(categoria, imagem, nome, preco, descricao) {
