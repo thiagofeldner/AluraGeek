@@ -5,6 +5,21 @@ async function listaProdutos () {
   return conexaoConvertida;
 }
 
+async function buscarProdutoId(id) {
+  try {
+    const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`);
+    const conexaoConvertida = conexao.json();
+    return conexaoConvertida
+  } catch(e) {
+    throw new Error ("Erro ao buscar produto por ID");
+  }
+}
+
+async function produtoCategoria(categoria) {
+  const listaApi = await listaProdutos();
+  return listaApi.filter((produto) => produto.categoria.toLowerCase() === categoria.toLowerCase());
+}
+
 async function addProduto(categoria, imagem, nome, preco, descricao) {
   const conexao = await fetch("https://64c030c60d8e251fd111fd32.mockapi.io/produto",{
     method: 'POST',
@@ -12,7 +27,7 @@ async function addProduto(categoria, imagem, nome, preco, descricao) {
       categoria: categoria,
       imagem: imagem,
       nome: nome,
-      preco: preco,
+      preco: `${preco}`,
       descricao: descricao,
     }),
     headers: {
@@ -21,25 +36,47 @@ async function addProduto(categoria, imagem, nome, preco, descricao) {
   })
 
   const conexaoConvertida = await conexao.json();
-
   return conexaoConvertida;
 }
 
+async function editarProduto(id, atualizarProduto) {
+  try {
+    const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`, {
+      method: "PUT",
+      body: JSON.stringify(atualizarProduto),
+      headers: {
+        "Content-type": "application/json"
+      }
+    });
+      const conexaoConvertida = await conexao.json();
+      return conexaoConvertida
+  }catch(e) {
+    return console.error(e)
+  }
+}
+
 async function removerProduto(id) {
-  const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`, {
-    method: "DELETE",
-    headers: {
-      "Content-type": "application/json",
-    },
-  });
-  
-  const conexaoConvertida = await conexao.json();
-  
-  return conexaoConvertida;
+  try {
+    const conexao = await fetch(`https://64c030c60d8e251fd111fd32.mockapi.io/produto/${id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-type": "application/json"
+      }
+      });
+
+      const conexaoConvertida = await conexao.json();
+      return conexaoConvertida
+
+  } catch(e) {
+    return console.error(e)
+  }  
 }
 
 export const conectaApi = {
   listaProdutos,
   addProduto,
-  removerProduto
+  editarProduto,
+  removerProduto,
+  buscarProdutoId,
+  produtoCategoria
 }
