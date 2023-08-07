@@ -5,7 +5,7 @@ const formulario = document.querySelector("[data-form]");
 async function criarProduto(evento) {
   evento.preventDefault();
 
-  const name = document.querySelector("[data-nome]").value;
+  const name = document.querySelector("[data-name]").value;
   const imagem = document.querySelector("[data-imagem]").value;
   const preco = document.querySelector("[data-preco]").value.replace("," , ".");
   
