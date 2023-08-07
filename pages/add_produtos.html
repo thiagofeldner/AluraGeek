@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="../css/add__produto.css" />
   <link rel="stylesheet" href="../css/footer.css" />
 
-  <script src="../js/conectaApi.js" type="module"></script>
-  <script src="../js/addProduto.js" type="module"></script>
+  <script src="../js/conectaApi.js" type="module" defer></script>
+  <script src="../js/addProduto.js" type="module" defer></script>
 
 </head>
 <body>
@@ -73,7 +73,8 @@
         <label>Descrição do produto</label>
       </div>
 
-      <button type="submit" class="button__wrapper">Adicionar produto</button>
+      <!-- <button type="submit" class="button__wrapper">Adicionar produto</button> -->
+      <input type="submit" class="button__wrapper" value="enviar">
       
     </form>
   </div>

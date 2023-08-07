@@ -5,15 +5,17 @@ const formulario = document.querySelector("[data-form]");
 async function criarProduto(evento) {
   evento.preventDefault();
 
-  const categoria = document.querySelector("[data-categoria]").value;
+  const name = document.querySelector("[data-nome]").value;
   const imagem = document.querySelector("[data-imagem]").value;
-  const nome = document.querySelector("[data-nome]").value;
   const preco = document.querySelector("[data-preco]").value.replace("," , ".");
+  
+  const categoria = document.querySelector("[data-categoria]").value;
+
   const descricao = document.querySelector("[data-descricao]").value;
 
-  await conectaApi.addProduto(categoria, imagem, nome, preco, descricao);
+  await conectaApi.addProduto(name, imagem, preco, categoria, descricao);
 
-  window.location.href = "../index.html";
+  window.location.href = "../pages/produtos.html";
 }
 
-formulario.addEventListener("sumbit", evento => criarProduto(evento));
+formulario.addEventListener("submit", evento => criarProduto(evento));

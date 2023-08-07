@@ -22,17 +22,17 @@ async function produtoCategoria(categoria) {
   return lista.filter((produto) => produto.categoria() === categoria());
 }
 
-async function addProduto(nome, imagem, preco, categoria, descricao) {
+async function addProduto(name, imagem, preco, categoria, descricao) {
   const conexao = await fetch(url, {
     method: "POST",
     headers: {
       "Content-type": "application/json",
     },
     body: JSON.stringify({
-      categoria: categoria,
+      nome: name,
       imagem: imagem,
-      nome: nome,
       preco: preco,
+      categoria: categoria,
       descricao: descricao,
     }),
   })
