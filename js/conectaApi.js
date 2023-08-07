@@ -29,11 +29,11 @@ async function addProduto(nome, imagem, preco, categoria, descricao) {
       "Content-type": "application/json",
     },
     body: JSON.stringify({
-      categoria: $produto.categoria,
-      imagem: $produto.imagem,
-      nome: $produto.nome,
-      preco: $produto.preco,
-      descricao: $produto.descricao,
+      categoria: categoria,
+      imagem: imagem,
+      nome: nome,
+      preco: preco,
+      descricao: descricao,
     }),
   })
 
