@@ -17,7 +17,7 @@ function constroiCard(imagem, alt, name, preco, id) {
           id="data-delete"
         >
       </button>
-      <a href="#">
+      <a href="../pages/edit_produto.html">
         <button class="btn__editar">
           <img src="../assets/imagens/editar.svg" alt="" id="data-edit">
         </button>
